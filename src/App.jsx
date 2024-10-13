@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import axios from "axios";
-
+import { Input } from "antd";
 const apiKey = "sk-f5d4a1977947485f8153aa4361a1ff25";  
 const baseURL = "https://dashscope.aliyuncs.com/compatible-mode/v1";  
 
@@ -57,7 +57,9 @@ API 文档:
     completion(documentation);
   }, []);
 
-  return <div>测试一下1</div>;
+  return <div>测试一下1
+    <Input placeholder="Basic usage" />
+  </div>;
 };
 
 // 示例文档，替换为你的实际文档内容
