@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "接口代码自动生成",
+  "version": "1.0",
+  "description": "Extension with a default side panel.",
+  "minimum_chrome_version": "116",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "16": "pubic/icon16.png",
+    "48": "pubic/icon48.png",
+    "128": "pubic/icon128.png"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "action": {
+    "default_title": "Click to open panel"
+  },
+
+  "permissions": ["sidePanel"]
+}
