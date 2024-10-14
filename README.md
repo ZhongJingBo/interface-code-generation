@@ -1,2 +1,2 @@
 # interface-code-generation
-chrome接口代码自动生成插件
+chrome插件 接口代码自动生成
